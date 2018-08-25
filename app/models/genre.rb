@@ -21,6 +21,5 @@ class Genre < ActiveRecord::Base
       artists << song.artist
     end
     artists.uniq
-    end
   end
 end
